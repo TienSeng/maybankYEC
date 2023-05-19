@@ -1,0 +1,96 @@
+a.cta {
+  min-width: 160px;
+  display: inline-block;
+  text-align: center;
+  color: #222;
+  background-color: #ffde00;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 auto 20px auto;
+}
+
+.mae-landing-tile {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(0deg, #00c6f1 88.08%, rgba(0, 198, 241, 0) 100%);
+  padding-bottom: 90px;
+}
+
+@media only screen and (min-width: 1100px) {
+  .mae-landing-tile {
+    min-height: 540px;
+    padding-bottom: 0;
+    background: url("./iwov-resources/images/personal/digital_banking/mae-assets/getrm8/promo-tile-bg.jpg")
+      no-repeat center;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .mae-landing-tile .mae-promo-tile-mbl-img {
+    display: none;
+  }
+}
+
+.mae-landing-tile .mae-promo-tile-content {
+  text-align: center;
+  padding: 0 30px;
+}
+
+@media only screen and (min-width: 1100px) {
+  .mae-landing-tile .mae-promo-tile-content {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 45%;
+    text-align: left;
+    padding: 0;
+  }
+}
+
+.mae-landing-tile .mae-promo-tile-content .mae-promo-tile-title {
+  font-weight: 700;
+  font-size: 30px;
+  max-width: 600px;
+  margin: 30px auto 30px auto;
+}
+
+@media only screen and (min-width: 1100px) {
+  .mae-landing-tile .mae-promo-tile-content .mae-promo-tile-title {
+    margin: 0 0 30px 0;
+    padding-right: 20px;
+  }
+}
+
+.mae-landing-tile .mae-promo-tile-content p {
+  max-width: 550px;
+}
+
+@media only screen and (min-width: 1100px) {
+  .mae-landing-tile .mae-promo-tile-content p {
+    padding-right: 20px;
+    margin: 0 0 20px 0;
+  }
+}
+
+.mae-landing-tile .mae-promo-tile-content a {
+  margin-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
